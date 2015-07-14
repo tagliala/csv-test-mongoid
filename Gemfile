@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'mongoid'
+gem 'client_side_validations', github: 'DavyJonesLocker/client_side_validations'
+gem 'client_side_validations-mongoid', github: 'DavyJonesLocker/client_side_validations-mongoid', branch: 'mongoid4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
